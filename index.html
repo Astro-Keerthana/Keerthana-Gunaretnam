@@ -524,95 +524,131 @@
     				</div>
 				</div>
 
-				<div class="col-md-10">
-				  <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
-				    
-				    <video class="bg-video" autoplay muted loop playsinline preload="metadata">
-				      <source src="images/video\ (1).mp4" type="video/mp4" />
-				      <!-- optional fallback formats -->
-				      <!-- <source src="videos/local-judge.webm" type="video/webm" /> -->
-				    </video>
+				<section class="ftco-section" id="video-work">
+				  <div class="container">
 				
-				    <div class="overlay"></div>
+				    <!-- Section title (optional) -->
+				    <div class="row justify-content-center mb-5 pb-3">
+				      <div class="col-md-7 heading-section text-center ftco-animate">
+				        <h2 class="mb-4">My Video Work</h2>
+				      </div>
+				    </div>
 				
-				    <div class="text text-center p-4">
-				      <h3><a href="#">Advertisement</a></h3>
-				      <span>Video Editing</span>
+				    <!-- Cards -->
+				    <div class="row g-4">
+				      
+				      <div class="col-12 col-md-6 col-lg-4">
+				        <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
+				          <video class="bg-video" autoplay muted loop playsinline preload="metadata">
+				            <source src="images/video-1.mp4" type="video/mp4" />
+				          </video>
+				
+				          <div class="overlay"></div>
+				
+				          <div class="text text-center p-4">
+				            <h3><a href="#">Advertisement</a></h3>
+				            <span>Video Editing</span>
+				          </div>
+				        </div>
+				      </div>
+				
+				      <div class="col-12 col-md-6 col-lg-4">
+				        <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
+				          <video class="bg-video" autoplay muted loop playsinline preload="metadata">
+				            <source src="images/video-2.mp4" type="video/mp4" />
+				          </video>
+				
+				          <div class="overlay"></div>
+				
+				          <div class="text text-center p-4">
+				            <h3><a href="#">Advertisement</a></h3>
+				            <span>Video Editing</span>
+				          </div>
+				        </div>
+				      </div>
+				
+				      <div class="col-12 col-md-6 col-lg-4">
+				        <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
+				          <video class="bg-video" autoplay muted loop playsinline preload="metadata">
+				            <source src="images/video.mp4" type="video/mp4" />
+				          </video>
+				
+				          <div class="overlay"></div>
+				
+				          <div class="text text-center p-4">
+				            <h3><a href="#">Advertisement</a></h3>
+				            <span>Video Editing</span>
+				          </div>
+				        </div>
+				      </div>
+				
+				      <div class="col-12 col-md-6 col-lg-4">
+				        <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
+				          <video class="bg-video" autoplay muted loop playsinline preload="metadata">
+				            <source src="images/ice-cream.mp4" type="video/mp4" />
+				          </video>
+				
+				          <div class="overlay"></div>
+				
+				          <div class="text text-center p-4">
+				            <h3><a href="#">Advertisement</a></h3>
+				            <span>Video Editing</span>
+				          </div>
+				        </div>
+				      </div>
+				
+				      <div class="col-12 col-md-6 col-lg-4">
+				        <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
+				          <video class="bg-video" autoplay muted loop playsinline preload="metadata">
+				            <source src="images/your-paragraph-text.mp4" type="video/mp4" />
+				          </video>
+				
+				          <div class="overlay"></div>
+				
+				          <div class="text text-center p-4">
+				            <h3><a href="#">Advertisement</a></h3>
+				            <span>Video Editing</span>
+				          </div>
+				        </div>
+				      </div>
+				
 				    </div>
 				  </div>
-				</div>
+				</section>
+				
+				<style>
+				  /* Video card container MUST have height (or aspect-ratio) to prevent overlap */
+				  .video-card{
+				    position: relative;
+				    overflow: hidden;
+				    border-radius: 10px;
+				    aspect-ratio: 16 / 9;   /* responsive height */
+				    /* If you want fixed height instead, use: height: 320px; and remove aspect-ratio */
+				  }
+				
+				  .video-card .bg-video{
+				    position: absolute;
+				    inset: 0;
+				    width: 100%;
+				    height: 100%;
+				    object-fit: cover;      /* like background-size: cover */
+				    z-index: 0;
+				  }
+				
+				  .video-card .overlay{
+				    position: absolute;
+				    inset: 0;
+				    z-index: 1;
+				    /* keep your existing overlay styles if theme already has them */
+				    background: rgba(0,0,0,0.35);
+				  }
+				
+				  .video-card .text{
+				    position: relative;
+				    z-index: 2;
+				  }
+				</style>
 
-				<div class="col-md-10">
-				  <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
-				    
-				    <video class="bg-video" autoplay muted loop playsinline preload="metadata">
-				      <source src="images/video\ (2).mp4" type="video/mp4" />
-				      <!-- optional fallback formats -->
-				      <!-- <source src="videos/local-judge.webm" type="video/webm" /> -->
-				    </video>
-				
-				    <div class="overlay"></div>
-				
-				    <div class="text text-center p-4">
-				      <h3><a href="#">Advertisement</a></h3>
-				      <span>Video Editing</span>
-				    </div>
-				  </div>
-				</div>
-
-				<div class="col-md-10">
-				  <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
-				    
-				    <video class="bg-video" autoplay muted loop playsinline preload="metadata">
-				      <source src="images/video.mp4" type="video/mp4" />
-				      <!-- optional fallback formats -->
-				      <!-- <source src="videos/local-judge.webm" type="video/webm" /> -->
-				    </video>
-				
-				    <div class="overlay"></div>
-				
-				    <div class="text text-center p-4">
-				      <h3><a href="#">Advertisement</a></h3>
-				      <span>Video Editing</span>
-				    </div>
-				  </div>
-				</div>
-
-				<div class="col-md-10">
-				  <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
-				    
-				    <video class="bg-video" autoplay muted loop playsinline preload="metadata">
-				      <source src="images/ice-cream.mp4" type="video/mp4" />
-				      <!-- optional fallback formats -->
-				      <!-- <source src="videos/local-judge.webm" type="video/webm" /> -->
-				    </video>
-				
-				    <div class="overlay"></div>
-				
-				    <div class="text text-center p-4">
-				      <h3><a href="#">Advertisement</a></h3>
-				      <span>Video Editing</span>
-				    </div>
-				  </div>
-				</div>
-
-				<div class="col-md-10">
-				  <div class="project ftco-animate d-flex justify-content-center align-items-center video-card">
-				    
-				    <video class="bg-video" autoplay muted loop playsinline preload="metadata">
-				      <source src="images/Your\ paragraph\ text.mp4" type="video/mp4" />
-				      <!-- optional fallback formats -->
-				      <!-- <source src="videos/local-judge.webm" type="video/webm" /> -->
-				    </video>
-				
-				    <div class="overlay"></div>
-				
-				    <div class="text text-center p-4">
-				      <h3><a href="#">Advertisement</a></h3>
-				      <span>Video Editing</span>
-				    </div>
-				  </div>
-				</div>
 				
     		</div>
     	</div>
