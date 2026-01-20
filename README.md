@@ -3,7 +3,7 @@
 A fast, responsive personal portfolio website to showcase my projects, skills, and experience.
 
 ## Live Demo 
-- **RLink:** https://astro-keerthana.github.io/Keerthana-Gunaretnam/ 
+- **Link:** https://astro-keerthana.github.io/Keerthana-Gunaretnam/ 
 
 ## Features
 - Responsive layout (mobile-first)
@@ -22,7 +22,7 @@ A fast, responsive personal portfolio website to showcase my projects, skills, a
 
 ### 1) Clone the repo
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/astro-keerthana/Keerthana-Gunaretnam.git
 cd your-repo
 ```
 
@@ -97,10 +97,7 @@ Add screenshots/gifs to show your site.
 - [ ] Improve Lighthouse scores
 - [ ] Add animations / micro-interactions
 
-## License
-This project is open source under the **MIT License** — feel free to use it as a template.
-
 ## Contact
-- **Email:** you@example.com
-- **LinkedIn:** https://linkedin.com/in/your-handle
-- **GitHub:** https://github.com/your-username
+- **Email:** keerthana.astronautsun@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/keerthana-g-1ba8b3207
+- **GitHub:** https://github.com/Astro-Keerthana
