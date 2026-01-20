@@ -3,7 +3,7 @@
 A fast, responsive personal portfolio website to showcase my projects, skills, and experience.
 
 ## Live Demo 
-- **RLink:** https://github.com/your-username/your-repo](https://astro-keerthana.github.io/Keerthana-Gunaretnam/ 
+- **RLink:** https://astro-keerthana.github.io/Keerthana-Gunaretnam/ 
 
 ## Features
 - Responsive layout (mobile-first)
